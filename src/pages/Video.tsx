@@ -40,9 +40,7 @@ const Video: React.FC<Video> = ({
             <div id="video_body">
               <h1>{videos[Number(vid)].name}</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit corrupti veniam repudiandae
-                exercitationem aperiam voluptates commodi impedit aliquam error, velit blanditiis omnis distinctio,
-                consequatur totam ipsam cumque harum dolor?
+              {videos[Number(vid)].text}
               </p>
             </div>
           </div>
