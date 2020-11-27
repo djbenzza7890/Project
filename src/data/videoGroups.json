@@ -1,0 +1,50 @@
+[
+  {
+    "tid": 1,
+    "gid": 7,
+    "name": "เลี้ยงบอลพื้นฐาน",
+    "image": "/assets/img/category/เลี้ยง1ต่อ1.jpg"
+  },
+  {
+    "tid": 1,
+    "gid": 2,
+    "name": "การส่งบอลระยะใกล้",
+    "image": "/assets/img/category/การส่งบอลระยะใกล้.jpg"
+  },
+  {
+    "tid": 1,
+    "gid": 3,
+    "name": "การส่งบอลระยะไกล",
+    "image": "/assets/img/category/การส่งบอลระยะไกล.jpg"
+  },
+  {
+    "tid": 1,
+    "gid": 4,
+    "name": "การจับบอลลูกเลียด",
+    "image": "/assets/img/category/การจับบอลลูกเลียด.jpg"
+  },
+  {
+    "tid": 1,
+    "gid": 5,
+    "name": "การยิงประตู",
+    "image": "/assets/img/category/การยิงประตู.jpg"
+  },
+  {
+    "tid": 1,
+    "gid": 6,
+    "name": "การเอาบอลลงลูกโด่ง",
+    "image": "/assets/img/category/การเอาบอลลงลูกโด่ง.jpg"
+  },
+  {
+    "tid": 1,   
+    "gid": 1,
+    "name": "เลี้ยง1ต่อ1",
+    "image": "/assets/img/category/การเลี้ยงบอล.jpg"
+  },
+  {
+    "tid": 2,
+    "gid": 1,
+    "name": "ทักษะเลี้ยงบอลขั้นเทพ",
+    "image": "/assets/img/bg_home_3.jpg"
+  }
+]
