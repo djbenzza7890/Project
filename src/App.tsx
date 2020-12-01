@@ -33,6 +33,8 @@ import VideoList from './pages/VideoList';
 import VideoGroup from './pages/VideoGroup';
 import Info from './pages/Info';
 import InfoList from './pages/InfoList';
+import ListFootball from './pages/ListFootball';
+import InfoListcopy from './pages/InfoListcopy';
 import Map from './pages/Map';
 
 var google_api = 'AIzaSyDs2Ko7K_0wOeY9qBZN4SPJ6i2wOwliokw';
@@ -42,6 +44,8 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
+          <Route path="/InfoListcopy" component={InfoListcopy}/>
+          <Route path="/ListFootball" component={ListFootball}/>
           <Route path="/Home" component={Home} />
           <Route path="/Video/:vid" component={Video} />
           <Route path="/VideoList/:tid/:gid" component={VideoList} />

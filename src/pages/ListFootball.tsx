@@ -2,14 +2,14 @@ import React, {useEffect, useState} from 'react';
 import {IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonPage, IonTitle, IonToolbar} from '@ionic/react';
 import {RouteComponentProps, Link} from 'react-router-dom';
 
-import {infos} from '../data';
+import {theplayers} from '../data';
 
-interface Info
+interface ListFootball
   extends RouteComponentProps<{
     nid: string;
   }> {}
 
-const Info: React.FC<Info> = ({
+const ListFootball: React.FC<ListFootball> = ({
   match: {
     params: {nid},
   },
@@ -21,7 +21,7 @@ const Info: React.FC<Info> = ({
           <IonToolbar>
             <IonTitle>
               <div id="info_header" className="container">
-                {infos[Number(nid)]?.title}
+                {theplayers[Number(nid)]?.titles}
               </div>
             </IonTitle>
           </IonToolbar>
@@ -30,14 +30,14 @@ const Info: React.FC<Info> = ({
         
         <IonCard>
           <IonCardHeader>
-            <img src={infos[Number(nid)]?.img} />
-            <IonCardTitle>{infos[Number(nid)]?.title}</IonCardTitle>
+            <img src={theplayers[Number(nid)]?.img} />
+            <IonCardTitle>{theplayers[Number(nid)]?.titles}</IonCardTitle>
           </IonCardHeader>
 
           <IonCardContent>
           <div
             dangerouslySetInnerHTML={{
-              __html: infos[Number(nid)]?.discription,
+              __html: theplayers[Number(nid)]?.texts,
             }}>
           </div>
           </IonCardContent>
@@ -55,4 +55,4 @@ const Info: React.FC<Info> = ({
   );
 };
 
-export default Info;
+export default ListFootball;
