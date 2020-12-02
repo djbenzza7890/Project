@@ -45,7 +45,7 @@ const App: React.FC = () => (
       <IonTabs>
         <IonRouterOutlet>
           <Route path="/InfoListcopy" component={InfoListcopy}/>
-          <Route path="/ListFootball" component={ListFootball}/>
+          <Route path="/ListFootball/:id" component={ListFootball}/>
           <Route path="/Home" component={Home} />
           <Route path="/Video/:vid" component={Video} />
           <Route path="/VideoList/:tid/:gid" component={VideoList} />

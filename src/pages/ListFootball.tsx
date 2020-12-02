@@ -6,14 +6,18 @@ import {theplayers} from '../data';
 
 interface ListFootball
   extends RouteComponentProps<{
-    nid: string;
+    id: string;
   }> {}
 
 const ListFootball: React.FC<ListFootball> = ({
   match: {
-    params: {nid},
+    params: {id},
   },
 }) => {
+  useEffect(() => {
+    console.log(id);
+    
+  }, [id])
   return (
     <>
       <IonPage>
@@ -21,7 +25,7 @@ const ListFootball: React.FC<ListFootball> = ({
           <IonToolbar>
             <IonTitle>
               <div id="info_header" className="container">
-                {theplayers[Number(nid)]?.titles}
+                {theplayers[Number(id)]?.titles}
               </div>
             </IonTitle>
           </IonToolbar>
@@ -30,14 +34,14 @@ const ListFootball: React.FC<ListFootball> = ({
         
         <IonCard>
           <IonCardHeader>
-            <img src={theplayers[Number(nid)]?.img} />
-            <IonCardTitle>{theplayers[Number(nid)]?.titles}</IonCardTitle>
+            <img src={theplayers[Number(id)]?.img} style={{width:"100%"}}/>
+            <IonCardTitle>{theplayers[Number(id)]?.titles}</IonCardTitle>
           </IonCardHeader>
 
           <IonCardContent>
           <div
             dangerouslySetInnerHTML={{
-              __html: theplayers[Number(nid)]?.texts,
+              __html: theplayers[Number(id)]?.texts,
             }}>
           </div>
           </IonCardContent>

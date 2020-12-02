@@ -9,7 +9,7 @@ const Home: React.FC = () => {
       <IonPage>
         <IonContent>
           <div id="home" className="container">
-            <h1>FootBall</h1>
+            <h1>BasicFootBall</h1>
             <div className="menus">
               <Link className="menu" to="/InfoList">
                 <div

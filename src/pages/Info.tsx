@@ -30,7 +30,7 @@ const Info: React.FC<Info> = ({
         
         <IonCard>
           <IonCardHeader>
-            <img src={infos[Number(nid)]?.img} />
+            <img src={infos[Number(nid)]?.img} style={{width:"100%"}}/>
             <IonCardTitle>{infos[Number(nid)]?.title}</IonCardTitle>
           </IonCardHeader>
 

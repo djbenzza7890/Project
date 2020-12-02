@@ -14,7 +14,9 @@ const InfoList: React.FC<InfoList> = ({
     params: {id: vid},
   },
 }) => {
-  useEffect(() => {}, []);
+  useEffect(() => {
+    
+  }, []);
 
   let j = 0;
 
