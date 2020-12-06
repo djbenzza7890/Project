@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {IonContent, IonPage} from '@ionic/react';
+import {IonCard, IonCardContent, IonCardHeader, IonCardTitle, IonContent, IonPage} from '@ionic/react';
 import Iframe from 'react-iframe';
 import {RouteComponentProps} from 'react-router-dom';
 
@@ -37,12 +37,24 @@ const Video: React.FC<Video> = ({
             ) : (
               ''
             )}
+
+
+            <IonCard>
+            <IonCardContent>
             <div id="video_body">
+            <h1>{videos[Number(vid)].name}</h1>
+            <p>{videos[Number(vid)].text}</p>
+            </div> 
+            </IonCardContent>
+            </IonCard>
+
+
+            {/* <div id="video_body">
               <h1>{videos[Number(vid)].name}</h1>
               <p>
               {videos[Number(vid)].text}
               </p>
-            </div>
+            </div> */}
           </div>
         </IonContent>
       </IonPage>
