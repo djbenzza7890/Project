@@ -35,10 +35,10 @@ const Info: React.FC<Info> = ({
           </IonCardHeader>
 
           <IonCardContent>
-          <div
+          <div  
             dangerouslySetInnerHTML={{
               __html: infos[Number(nid)]?.discription,
-            }}>
+            }} className="text1">
           </div>
           </IonCardContent>
         </IonCard>

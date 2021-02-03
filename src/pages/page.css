@@ -321,3 +321,8 @@ ion-toolbar {
   margin-left: 5px;
   color: #aaa;
 }
+.text1 {
+  text-indent:30px;
+  text-align: justify;
+  text-justify: inter-character;
+}
