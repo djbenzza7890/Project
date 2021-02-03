@@ -60,10 +60,10 @@ const Map: React.FC = () => {
               )
               .sort((a, b) => (a.measure > b.measure ? 1 : a.measure < b.measure ? -1 : 0))
               .map((f, i) => (
-                <a key={i} className="field" href={f.url} target="_blank">
+                <a key={i} className="field" href={`https://www.google.com/maps/dir/?api=1&destination=${f.name}`} target="_blank">
                   <IonIcon icon={icons.navigateCircleOutline} />
                   <div>
-                    <div className="measure">{f.measure} km.</div>
+                    <div className="measure">{f.measure} กม.</div>
                     <div className="name">{f.name}</div>
                   </div>
                 </a>
