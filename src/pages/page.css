@@ -324,5 +324,5 @@ ion-toolbar {
 .text1 {
   text-indent:30px;
   text-align: justify;
-  text-justify: inter-character;
+  /* text-justify: inter-word; ใช่กับChromeไม่ได้ */
 }
