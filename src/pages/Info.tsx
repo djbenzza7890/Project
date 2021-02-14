@@ -28,10 +28,10 @@ const Info: React.FC<Info> = ({
         </IonHeader>
         <IonContent>
         
-        <IonCard>
+        <IonCard className="c">
           <IonCardHeader>
             <img src={infos[Number(nid)]?.img} style={{width:"100%"}}/>
-            <IonCardTitle>{infos[Number(nid)]?.title}</IonCardTitle>
+            <IonCardTitle style={{color:"#848482"}}>{infos[Number(nid)]?.title}</IonCardTitle>
           </IonCardHeader>
 
           <IonCardContent>

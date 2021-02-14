@@ -326,3 +326,6 @@ ion-toolbar {
   text-align: justify;
   /* text-justify: inter-word; ใช่กับChromeไม่ได้ */
 }
+.c {
+  background-color: #1A1B1E;
+}

@@ -32,10 +32,10 @@ const ListFootball: React.FC<ListFootball> = ({
         </IonHeader>
         <IonContent>
         
-        <IonCard>
+        <IonCard className="c">
           <IonCardHeader>
             <img src={theplayers[Number(id)]?.img} style={{width:"100%"}}/>
-            <IonCardTitle>{theplayers[Number(id)]?.titles}</IonCardTitle>
+            <IonCardTitle style={{color:"#848482"}}>{theplayers[Number(id)]?.titles}</IonCardTitle>
           </IonCardHeader>
 
           <IonCardContent>

@@ -39,7 +39,7 @@ const Video: React.FC<Video> = ({
             )}
 
 
-            <IonCard>
+            <IonCard className="c">
             <IonCardContent>
             <div id="video_body">
             <h1>{videos[Number(vid)].name}</h1>
