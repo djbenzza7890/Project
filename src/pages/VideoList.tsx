@@ -54,7 +54,7 @@ const VideoList: React.FC<VideoList> = ({
                     <div className="name">
                       {++j}. {v.name}
                     </div>
-                    <div className="detel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et a.</div>
+                    {/* <div className="detel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et a.</div> */}
                   </div>
                 </Link>
               ) : (
