@@ -4,6 +4,7 @@ import {IonContent, IonIcon, IonPage} from '@ionic/react';
 import * as icons from 'ionicons/icons';
 
 const Home: React.FC = () => {
+  // const myIcon ="/public/assets/img/image2vector.svg";
   return (
     <>
       <IonPage>
