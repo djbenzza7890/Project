@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {IonContent, IonIcon, IonPage} from '@ionic/react';
 import * as icons from 'ionicons/icons';
+import { GiFootTrip } from "react-icons/gi";
 
 const Home: React.FC = () => {
   // const myIcon ="/public/assets/img/image2vector.svg";
@@ -46,7 +47,7 @@ const Home: React.FC = () => {
                   style={{
                     backgroundImage: `url('/assets/img/bg_home_3.jpg')`,
                   }}></div>
-                <IonIcon icon={icons.shirt} />
+                <IonIcon icon={icons.accessibility} />
                 <div className="title">
                   ทักษะเลี้ยงบอล
                   <br />
