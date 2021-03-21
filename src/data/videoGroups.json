@@ -42,18 +42,6 @@
     "image": "/assets/img/category/การเลี้ยงบอล.jpg"
   },
   {
-    "tid": 1,
-    "gid": 8,
-    "name": "เล่นเกมรับ",
-    "image": "/assets/img/category/เกมรับ.jpg"
-  },
-  {
-    "tid": 1,
-    "gid": 9,
-    "name": "การทุ่มลูกฟุตบอลที่ถูกวิธี",
-    "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/FBL-ENG-PR-LEICESTER-LIVERPOOL-a62a5ac444de46e36280aceeedf8210c.jpg"
-  },
-  {
     "tid": 2,
     "gid": 1,
     "name": "ทักษะเลี้ยงบอลขั้นเทพ",
