@@ -321,11 +321,11 @@ ion-toolbar {
   margin-left: 5px;
   color: #aaa;
 }
-.text1 {
+/* .text1 {
   text-indent:30px;
   text-align: justify;
-  /* text-justify: inter-word; ใช่กับChromeไม่ได้ */
-}
+  text-justify: inter-word; 
+} */
 .c {
   background-color: #1A1B1E;
 }

@@ -49,9 +49,9 @@ const Home: React.FC = () => {
                   }}></div>
                 <IonIcon icon={icons.accessibility} />
                 <div className="title">
-                  ทักษะเลี้ยงบอล
+                  ทักษะการเลี้ยง
                   <br />
-                  ขั้นเทพ
+                  ลูกฟุตบอลขั้นเทพ
                 </div>
               </Link>
             </div>
